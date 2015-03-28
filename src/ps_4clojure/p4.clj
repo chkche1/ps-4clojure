@@ -3,5 +3,5 @@
 
 (defn -main []
   (are [soln] soln
-(= (list :a :b :c) '(:a :b :c))
+  (= (list :a :b :c) '(:a :b :c))
 ))

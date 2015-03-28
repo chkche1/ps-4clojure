@@ -2,10 +2,10 @@
   (:use clojure.test))
 
 (def __
-"HELLO WORLD"
+  "HELLO WORLD"
  )
 
 (defn -main []
   (are [soln] soln
-(= __ (.toUpperCase "hello world"))
+  (= __ (.toUpperCase "hello world"))
 ))

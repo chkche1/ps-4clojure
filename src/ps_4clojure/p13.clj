@@ -1,11 +1,11 @@
-(ns ps-4clojure.p1
+(ns ps-4clojure.p13
   (:use clojure.test))
 
 (def __
-  true
+  [20 30 40]
 )
 
 (defn -main []
   (are [soln] soln
-  (= __ true)
+  (= __ (rest [10 20 30 40]))
 ))

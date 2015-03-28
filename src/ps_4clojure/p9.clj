@@ -1,11 +1,11 @@
-(ns ps-4clojure.p1
+(ns ps-4clojure.p9
   (:use clojure.test))
 
 (def __
-  true
+ 2
 )
 
 (defn -main []
   (are [soln] soln
-  (= __ true)
+  (= #{1 2 3 4} (conj #{1 4 3} __))
 ))
